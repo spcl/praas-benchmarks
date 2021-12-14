@@ -1,0 +1,78 @@
+[23:47:49:647634] [P 85613] [T 85612] [debug] /usr/bin/docker 
+[23:47:49:647656] [P 85613] [T 85612] [debug] run 
+[23:47:49:647660] [P 85613] [T 85612] [debug] -e 
+[23:47:49:647663] [P 85613] [T 85612] [debug] SWAPPING_S3_BUCKET=praaas-swapping 
+[23:47:49:647666] [P 85613] [T 85612] [debug] -e 
+[23:47:49:647668] [P 85613] [T 85612] [debug] AWS_ACCESS_KEY_ID=***REMOVED*** 
+[23:47:49:647671] [P 85613] [T 85612] [debug] -e 
+[23:47:49:647674] [P 85613] [T 85612] [debug] AWS_SECRET_ACCESS_KEY=***REMOVED*** 
+[23:47:49:647677] [P 85613] [T 85612] [debug] -v 
+[23:47:49:647679] [P 85613] [T 85612] [debug] /home/ubuntu/swapping/logs:/praas-logs 
+[23:47:49:647682] [P 85613] [T 85612] [debug] -v 
+[23:47:49:647685] [P 85613] [T 85612] [debug] /home/ubuntu/swapping/build/examples:/code 
+[23:47:49:647687] [P 85613] [T 85612] [debug] --shm-size 
+[23:47:49:647690] [P 85613] [T 85612] [debug] 3145728000 
+[23:47:49:647693] [P 85613] [T 85612] [debug] spcleth/praas:runtime 
+[23:47:50:001580] [P 1] [T 1] [info] Executing PraaS session executor! 
+[23:47:50:011072] [P 1] [T 1] [info] Process 99980cfd-05e6-44 begins work! 
+swap_time,1024,52434105
+swap_time,524288,63466792
+swap_time,524288,72535544
+swap_time,524288,95631535
+swap_time,524288,120924780
+swap_time,524288,29139494
+swap_time,524288,78605233
+swap_time,524288,121439677
+swap_time,524288,264640317
+swap_time,524288,97678496
+swap_time,524288,36378411
+swap_time,524288,93255864
+swap_time,524288,83580381
+swap_time,524288,81555960
+swap_time,524288,120270120
+swap_time,524288,106914955
+swap_time,524288,246815290
+swap_time,524288,132767034
+swap_time,524288,108663355
+swap_time,524288,98249741
+swap_time,524288,44699529
+swap_time,524288,118798207
+swap_time,524288,109392923
+swap_time,524288,105679300
+swap_time,524288,123372128
+swap_time,524288,83164264
+swap_time,524288,126511175
+swap_time,524288,110387110
+swap_time,524288,68444092
+swap_time,524288,53667401
+swap_time,524288,71230181
+swap_time,524288,131290369
+swap_time,524288,63449817
+swap_time,524288,107598842
+swap_time,524288,29615455
+swap_time,524288,39073496
+swap_time,524288,97998631
+swap_time,524288,74651826
+swap_time,524288,92319656
+swap_time,524288,83396410
+swap_time,524288,35515028
+swap_time,524288,109709481
+swap_time,524288,56585823
+swap_time,524288,78873262
+swap_time,524288,75186907
+swap_time,524288,35534385
+swap_time,524288,87007968
+swap_time,524288,115365000
+swap_time,524288,77363739
+swap_time,524288,112781441
+swap_time,524288,128514248
+swap_time,1048576,122980479
+swap_time,1048576,102762222
+swap_time,1048576,108747851
+swap_time,1048576,105439546
+swap_time,1048576,87053929
+swap_time,1048576,188393691
+swap_time,1048576,120493262
+[23:48:50:517898] [P 1] [T 1] [info] Process ends work! 
+[23:48:50:517921] [P 1] [T 1] [info] Session is closing down 
+[23:48:50:517926] [P 1] [T 1] [error] Destruct 0x7ffd8e47e220 

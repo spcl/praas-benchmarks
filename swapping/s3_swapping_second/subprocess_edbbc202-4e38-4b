@@ -1,0 +1,90 @@
+[00:48:46:862527] [P 98933] [T 98932] [debug] /usr/bin/docker 
+[00:48:46:862551] [P 98933] [T 98932] [debug] run 
+[00:48:46:862555] [P 98933] [T 98932] [debug] -e 
+[00:48:46:862558] [P 98933] [T 98932] [debug] SWAPPING_S3_BUCKET=praaas-swapping 
+[00:48:46:862561] [P 98933] [T 98932] [debug] -e 
+[00:48:46:862564] [P 98933] [T 98932] [debug] AWS_ACCESS_KEY_ID=***REMOVED*** 
+[00:48:46:862567] [P 98933] [T 98932] [debug] -e 
+[00:48:46:862569] [P 98933] [T 98932] [debug] AWS_SECRET_ACCESS_KEY=***REMOVED*** 
+[00:48:46:862572] [P 98933] [T 98932] [debug] -v 
+[00:48:46:862575] [P 98933] [T 98932] [debug] /home/ubuntu/swapping/logs:/praas-logs 
+[00:48:46:862577] [P 98933] [T 98932] [debug] -v 
+[00:48:46:862580] [P 98933] [T 98932] [debug] /home/ubuntu/swapping/build/examples:/code 
+[00:48:46:862583] [P 98933] [T 98932] [debug] --shm-size 
+[00:48:46:862586] [P 98933] [T 98932] [debug] 3145728000 
+[00:48:46:862588] [P 98933] [T 98932] [debug] spcleth/praas:runtime 
+[00:48:47:231225] [P 1] [T 1] [info] Executing PraaS session executor! 
+[00:48:47:240606] [P 1] [T 1] [info] Process edbbc202-4e38-4b begins work! 
+[00:48:47:254528] [P 1] [T 15] [info] Swapping in session e20a0a03-f636-47 - 1024 bytes starting at 0x7fe9e3e11000 
+swap_time,1024,50116962
+[00:48:48:270999] [P 1] [T 20] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,214671446
+[00:48:49:394960] [P 1] [T 24] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,158580286
+[00:48:50:519088] [P 1] [T 28] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,187370257
+[00:48:51:644553] [P 1] [T 32] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,148730766
+[00:48:52:769543] [P 1] [T 36] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,172322325
+[00:48:53:893352] [P 1] [T 40] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,213559749
+[00:48:55:016557] [P 1] [T 44] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,300751288
+[00:48:56:142160] [P 1] [T 48] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,191160780
+[00:48:57:265056] [P 1] [T 52] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,125095909
+[00:48:58:389146] [P 1] [T 56] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,192654669
+[00:48:59:513649] [P 1] [T 60] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,248731194
+[00:49:00:639217] [P 1] [T 64] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,182324903
+[00:49:01:763516] [P 1] [T 68] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,174750006
+[00:49:02:887561] [P 1] [T 72] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,270086552
+[00:49:04:012896] [P 1] [T 76] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,237764178
+[00:49:05:135685] [P 1] [T 80] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,287130135
+[00:49:06:260841] [P 1] [T 84] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,186060152
+[00:49:07:385888] [P 1] [T 88] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,177684947
+[00:49:08:512564] [P 1] [T 92] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,240200267
+[00:49:09:635520] [P 1] [T 96] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,192512968
+[00:49:10:761518] [P 1] [T 100] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,227639240
+[00:49:11:926288] [P 1] [T 104] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,234448643
+[00:49:13:049086] [P 1] [T 108] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,208372292
+[00:49:14:174455] [P 1] [T 112] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,154877453
+[00:49:15:300927] [P 1] [T 116] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,202490288
+[00:49:16:426532] [P 1] [T 120] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,315636533
+[00:49:17:550214] [P 1] [T 124] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,284097914
+[00:49:18:676448] [P 1] [T 128] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,5110545785
+[00:49:23:910522] [P 1] [T 132] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,446599505
+[00:49:25:068332] [P 1] [T 136] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,164960767
+[00:49:26:196910] [P 1] [T 140] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,155682106
+[00:49:27:322136] [P 1] [T 144] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,254989130
+[00:49:28:446507] [P 1] [T 148] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,151249272
+[00:49:29:573118] [P 1] [T 152] [info] Swapping in session 98e27970-8275-4f - 10485760 bytes starting at 0x7fe9d1dfd000 
+swap_time,10485760,170475217
+[00:49:51:186360] [P 1] [T 1] [info] Process ends work! 
+[00:49:51:186385] [P 1] [T 1] [info] Session is closing down 
+[00:49:51:186391] [P 1] [T 1] [error] Destruct 0x7ffe6d63ea40 
