@@ -1,0 +1,62 @@
+[00:49:58:181297] [P 99225] [T 99224] [debug] /usr/bin/docker 
+[00:49:58:181320] [P 99225] [T 99224] [debug] run 
+[00:49:58:181324] [P 99225] [T 99224] [debug] -e 
+[00:49:58:181327] [P 99225] [T 99224] [debug] SWAPPING_S3_BUCKET=praaas-swapping 
+[00:49:58:181330] [P 99225] [T 99224] [debug] -e 
+[00:49:58:181332] [P 99225] [T 99224] [debug] AWS_ACCESS_KEY_ID=AKIATZYQRAQSR7PKKG5K 
+[00:49:58:181335] [P 99225] [T 99224] [debug] -e 
+[00:49:58:181338] [P 99225] [T 99224] [debug] AWS_SECRET_ACCESS_KEY=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 
+[00:49:58:181341] [P 99225] [T 99224] [debug] -v 
+[00:49:58:181343] [P 99225] [T 99224] [debug] /home/ubuntu/swapping/logs:/praas-logs 
+[00:49:58:181346] [P 99225] [T 99224] [debug] -v 
+[00:49:58:181349] [P 99225] [T 99224] [debug] /home/ubuntu/swapping/build/examples:/code 
+[00:49:58:181351] [P 99225] [T 99224] [debug] --shm-size 
+[00:49:58:181354] [P 99225] [T 99224] [debug] 3145728000 
+[00:49:58:181357] [P 99225] [T 99224] [debug] spcleth/praas:runtime 
+[00:49:58:549003] [P 1] [T 1] [info] Executing PraaS session executor! 
+[00:49:58:558651] [P 1] [T 1] [info] Process 15969e37-dd11-40 begins work! 
+[00:49:58:571112] [P 1] [T 15] [info] Swapping in session 4a2a3a23-5268-48 - 1024 bytes starting at 0x7f8714913000 
+swap_time,1024,48821337
+[00:49:59:587816] [P 1] [T 20] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,218851020
+[00:50:00:716970] [P 1] [T 24] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,504554726
+[00:50:01:841711] [P 1] [T 28] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,395860477
+[00:50:02:966968] [P 1] [T 32] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,197876374
+[00:50:04:844147] [P 1] [T 36] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,3209991380
+[00:50:08:187022] [P 1] [T 40] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,217862969
+[00:50:09:312784] [P 1] [T 44] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,143936604
+[00:50:10:438775] [P 1] [T 48] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,365557623
+[00:50:11:769535] [P 1] [T 52] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,181134161
+[00:50:12:895809] [P 1] [T 56] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,160334932
+[00:50:14:020919] [P 1] [T 60] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,259573652
+[00:50:15:146511] [P 1] [T 64] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,170274154
+[00:50:16:272485] [P 1] [T 68] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,198988788
+[00:50:17:400753] [P 1] [T 72] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,244234501
+[00:50:18:527968] [P 1] [T 76] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,201513030
+[00:50:19:654806] [P 1] [T 80] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,303761628
+[00:50:20:778739] [P 1] [T 84] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,127212238
+[00:50:21:903261] [P 1] [T 88] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,423662364
+[00:50:23:027877] [P 1] [T 92] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,213005392
+[00:50:24:151796] [P 1] [T 96] [info] Swapping in session 9bec494c-e405-41 - 10485760 bytes starting at 0x7f870adff000 
+swap_time,10485760,175379902
+[00:51:09:018489] [P 1] [T 1] [info] Process ends work! 
+[00:51:09:018514] [P 1] [T 1] [info] Session is closing down 
+[00:51:09:018521] [P 1] [T 1] [error] Destruct 0x7fffa4f9d810 

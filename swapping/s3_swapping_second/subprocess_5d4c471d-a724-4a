@@ -1,0 +1,379 @@
+[00:40:48:738748] [P 97487] [T 97486] [debug] /usr/bin/docker 
+[00:40:48:738772] [P 97487] [T 97486] [debug] run 
+[00:40:48:738776] [P 97487] [T 97486] [debug] -e 
+[00:40:48:738778] [P 97487] [T 97486] [debug] SWAPPING_S3_BUCKET=praaas-swapping 
+[00:40:48:738781] [P 97487] [T 97486] [debug] -e 
+[00:40:48:738784] [P 97487] [T 97486] [debug] AWS_ACCESS_KEY_ID=AKIATZYQRAQSR7PKKG5K 
+[00:40:48:738787] [P 97487] [T 97486] [debug] -e 
+[00:40:48:738789] [P 97487] [T 97486] [debug] AWS_SECRET_ACCESS_KEY=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 
+[00:40:48:738792] [P 97487] [T 97486] [debug] -v 
+[00:40:48:738795] [P 97487] [T 97486] [debug] /home/ubuntu/swapping/logs:/praas-logs 
+[00:40:48:738798] [P 97487] [T 97486] [debug] -v 
+[00:40:48:738800] [P 97487] [T 97486] [debug] /home/ubuntu/swapping/build/examples:/code 
+[00:40:48:738803] [P 97487] [T 97486] [debug] --shm-size 
+[00:40:48:738806] [P 97487] [T 97486] [debug] 3145728000 
+[00:40:48:738809] [P 97487] [T 97486] [debug] spcleth/praas:runtime 
+[00:40:49:102052] [P 1] [T 1] [info] Executing PraaS session executor! 
+[00:40:49:111626] [P 1] [T 1] [info] Process 5d4c471d-a724-4a begins work! 
+[00:40:49:123574] [P 1] [T 15] [info] Swapping in session 6bc2645d-6ee1-4f - 1024 bytes starting at 0x7f5002096000 
+swap_time,1024,44875380
+[00:40:50:141565] [P 1] [T 20] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,88813705
+[00:40:51:219588] [P 1] [T 24] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,98646783
+[00:40:52:259788] [P 1] [T 28] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,113031733
+[00:40:53:312893] [P 1] [T 32] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,79002664
+[00:40:54:350634] [P 1] [T 36] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,86829888
+[00:40:55:387554] [P 1] [T 40] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,106388997
+[00:40:56:423628] [P 1] [T 44] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,42267599
+[00:40:57:461593] [P 1] [T 48] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,44153527
+[00:40:58:498231] [P 1] [T 52] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,114635329
+[00:40:59:549828] [P 1] [T 56] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,100678439
+[00:41:00:587950] [P 1] [T 60] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,106095607
+[00:41:01:627989] [P 1] [T 64] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,116669987
+[00:41:02:665088] [P 1] [T 68] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,71305859
+[00:41:03:703549] [P 1] [T 72] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,137141385
+[00:41:04:749346] [P 1] [T 76] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,79055398
+[00:41:05:786425] [P 1] [T 80] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,186996397
+[00:41:06:826980] [P 1] [T 84] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,88774008
+[00:41:07:863935] [P 1] [T 88] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,98632592
+[00:41:08:901888] [P 1] [T 92] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,157568777
+[00:41:09:940160] [P 1] [T 96] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,107773163
+[00:41:10:989139] [P 1] [T 100] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,100493980
+[00:41:12:028768] [P 1] [T 104] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,97239287
+[00:41:13:064791] [P 1] [T 108] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,74729019
+[00:41:14:102644] [P 1] [T 112] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,84667484
+[00:41:15:137114] [P 1] [T 116] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,96458788
+[00:41:16:193996] [P 1] [T 120] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,41714217
+[00:41:17:237625] [P 1] [T 124] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,110661660
+[00:41:18:275366] [P 1] [T 128] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,94791087
+[00:41:19:314707] [P 1] [T 132] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,99980064
+[00:41:20:352830] [P 1] [T 136] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,97272434
+[00:41:21:392697] [P 1] [T 140] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,93088006
+[00:41:22:435878] [P 1] [T 144] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,129506507
+[00:41:23:473353] [P 1] [T 148] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,97081911
+[00:41:24:512802] [P 1] [T 152] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,81014022
+[00:41:25:549256] [P 1] [T 156] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,102576636
+[00:41:26:587395] [P 1] [T 160] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,109919355
+[00:41:27:669208] [P 1] [T 164] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,123405900
+[00:41:28:707270] [P 1] [T 168] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,259766393
+[00:41:29:746167] [P 1] [T 172] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,64643203
+[00:41:30:785295] [P 1] [T 176] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,115456733
+[00:41:31:840005] [P 1] [T 180] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,72598815
+[00:41:32:878052] [P 1] [T 184] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,90036917
+[00:41:33:931919] [P 1] [T 188] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,100304884
+[00:41:34:968360] [P 1] [T 192] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,101951157
+[00:41:36:025021] [P 1] [T 196] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,213721177
+[00:41:37:064237] [P 1] [T 200] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,105749358
+[00:41:38:100246] [P 1] [T 204] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,121934307
+[00:41:39:140681] [P 1] [T 208] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,111960333
+[00:41:40:178267] [P 1] [T 212] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,120494130
+[00:41:41:217686] [P 1] [T 216] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,106748462
+[00:41:42:293001] [P 1] [T 220] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,132141184
+[00:41:43:337742] [P 1] [T 224] [info] Swapping in session a094d985-d3fb-43 - 1048576 bytes starting at 0x7f4ffd263000 
+swap_time,1048576,113023987
+[00:41:44:355511] [P 1] [T 228] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,61025678
+[00:41:45:399786] [P 1] [T 232] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,95463356
+[00:41:46:446605] [P 1] [T 236] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,154475346
+[00:41:47:489402] [P 1] [T 240] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,61784558
+[00:41:48:528322] [P 1] [T 244] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,119550613
+[00:41:49:573453] [P 1] [T 248] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,67015127
+[00:41:50:615573] [P 1] [T 252] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,90668911
+[00:41:51:658678] [P 1] [T 256] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,147385792
+[00:41:52:702470] [P 1] [T 260] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,97335062
+[00:41:53:744106] [P 1] [T 264] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,93464336
+[00:41:54:786537] [P 1] [T 268] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,107070981
+[00:41:55:828819] [P 1] [T 272] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,123376598
+[00:41:56:869745] [P 1] [T 276] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,89358330
+[00:41:57:916945] [P 1] [T 280] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,127600952
+[00:41:58:957877] [P 1] [T 284] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,241365310
+[00:42:00:003535] [P 1] [T 288] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,87208410
+[00:42:01:045280] [P 1] [T 292] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,110619261
+[00:42:02:089997] [P 1] [T 296] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,84720261
+[00:42:03:129637] [P 1] [T 300] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,139913446
+[00:42:04:171244] [P 1] [T 304] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,84307332
+[00:42:05:211898] [P 1] [T 308] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,77840571
+[00:42:06:250590] [P 1] [T 312] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,97314178
+[00:42:07:395206] [P 1] [T 316] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,131723412
+[00:42:08:449069] [P 1] [T 320] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,100011284
+[00:42:09:491114] [P 1] [T 324] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,70931325
+[00:42:10:533989] [P 1] [T 328] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,95870009
+[00:42:11:576187] [P 1] [T 332] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,104954541
+[00:42:12:621159] [P 1] [T 336] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,108644782
+[00:42:13:664094] [P 1] [T 340] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,82703048
+[00:42:14:708341] [P 1] [T 344] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,99632086
+[00:42:15:749877] [P 1] [T 348] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,87609997
+[00:42:16:792863] [P 1] [T 352] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,89383027
+[00:42:17:859911] [P 1] [T 356] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,98375300
+[00:42:18:899889] [P 1] [T 360] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,101157912
+[00:42:19:940920] [P 1] [T 364] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,108553363
+[00:42:20:980479] [P 1] [T 368] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,123230393
+[00:42:22:020510] [P 1] [T 372] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,88967699
+[00:42:23:065055] [P 1] [T 376] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,130208276
+[00:42:24:108498] [P 1] [T 380] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,45099597
+[00:42:25:191986] [P 1] [T 384] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,121991857
+[00:42:26:232278] [P 1] [T 388] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,63708756
+[00:42:27:272344] [P 1] [T 392] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,116152644
+[00:42:28:312317] [P 1] [T 396] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,113983233
+[00:42:29:353344] [P 1] [T 400] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,115862410
+[00:42:30:410644] [P 1] [T 404] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,133862848
+[00:42:31:451570] [P 1] [T 408] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,97221115
+[00:42:32:494376] [P 1] [T 412] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,134246575
+[00:42:33:537871] [P 1] [T 416] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,116631469
+[00:42:34:577131] [P 1] [T 420] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,154512213
+[00:42:35:642621] [P 1] [T 425] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,105218475
+[00:42:36:690432] [P 1] [T 429] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,97512606
+[00:42:37:735987] [P 1] [T 433] [info] Swapping in session a876d9e8-9869-49 - 2097152 bytes starting at 0x7f4ffd163000 
+swap_time,2097152,101440190
+[00:42:38:750161] [P 1] [T 437] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,174724080
+[00:42:39:810863] [P 1] [T 441] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,184397754
+[00:42:40:972712] [P 1] [T 445] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,141557514
+[00:42:42:051176] [P 1] [T 449] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,187928266
+[00:42:43:143907] [P 1] [T 453] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,139133968
+[00:42:44:332435] [P 1] [T 457] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,137251150
+[00:42:45:396510] [P 1] [T 461] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,140279155
+[00:42:46:560798] [P 1] [T 465] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,149727223
+[00:42:47:626783] [P 1] [T 469] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,73158102
+[00:42:48:744426] [P 1] [T 473] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,199533853
+[00:42:49:807163] [P 1] [T 477] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,132106585
+[00:42:50:889799] [P 1] [T 481] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,117097249
+[00:42:51:950638] [P 1] [T 485] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,138445256
+[00:42:53:011835] [P 1] [T 489] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,134342454
+[00:42:54:074519] [P 1] [T 493] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,73618905
+[00:42:55:139084] [P 1] [T 497] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,132609415
+[00:42:56:201935] [P 1] [T 501] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,77591992
+[00:42:57:262716] [P 1] [T 505] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,131748518
+[00:42:58:327999] [P 1] [T 509] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,172546986
+[00:42:59:405678] [P 1] [T 513] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,128553667
+[00:43:00:467193] [P 1] [T 517] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,134493775
+[00:43:01:551579] [P 1] [T 521] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,103138005
+[00:43:02:719812] [P 1] [T 525] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,123154309
+[00:43:03:821516] [P 1] [T 529] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,161558539
+[00:43:04:885061] [P 1] [T 533] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,140113517
+[00:43:05:947284] [P 1] [T 537] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,179804959
+[00:43:07:011190] [P 1] [T 541] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,201241173
+[00:43:08:074425] [P 1] [T 545] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,167538787
+[00:43:09:135623] [P 1] [T 549] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,183283467
+[00:43:10:198803] [P 1] [T 553] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,109461539
+[00:43:11:262917] [P 1] [T 557] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,165089936
+[00:43:12:324633] [P 1] [T 561] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,150033715
+[00:43:13:387418] [P 1] [T 565] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,162737540
+[00:43:14:449385] [P 1] [T 569] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,129393046
+[00:43:15:510232] [P 1] [T 573] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,144402531
+[00:43:16:571888] [P 1] [T 577] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,171562185
+[00:43:17:655219] [P 1] [T 581] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,177385634
+[00:43:18:717302] [P 1] [T 585] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,117665962
+[00:43:19:791313] [P 1] [T 589] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,161135578
+[00:43:20:856019] [P 1] [T 593] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,138037004
+[00:43:21:917511] [P 1] [T 597] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,128776318
+[00:43:22:978378] [P 1] [T 601] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,181800453
+[00:43:24:039506] [P 1] [T 605] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,165254283
+[00:43:25:101108] [P 1] [T 609] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,160350756
+[00:43:26:166210] [P 1] [T 613] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,143360917
+[00:43:27:227682] [P 1] [T 617] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,121831900
+[00:43:28:390948] [P 1] [T 621] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,349022535
+[00:43:29:496700] [P 1] [T 625] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,148080942
+[00:43:30:559924] [P 1] [T 629] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,163561278
+[00:43:31:625977] [P 1] [T 633] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,162261960
+[00:43:32:727109] [P 1] [T 637] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,171617208
+[00:43:33:789057] [P 1] [T 641] [info] Swapping in session e9429831-3d1d-4b - 4194304 bytes starting at 0x7f4ffcf63000 
+swap_time,4194304,149122191
+[00:43:34:805152] [P 1] [T 645] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,150949318
+[00:43:35:909547] [P 1] [T 649] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,169679838
+[00:43:37:012788] [P 1] [T 653] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,177180842
+[00:43:38:117674] [P 1] [T 657] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,204203167
+[00:43:39:222232] [P 1] [T 661] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,157536906
+[00:43:40:398706] [P 1] [T 665] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,184241697
+[00:43:41:504083] [P 1] [T 669] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,156055578
+[00:43:42:608877] [P 1] [T 673] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,173921775
+[00:43:43:710988] [P 1] [T 677] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,159697244
+[00:43:44:816299] [P 1] [T 681] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,158876765
+[00:43:45:921605] [P 1] [T 685] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,5167942122
+[00:43:51:196085] [P 1] [T 689] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,300373379
+[00:43:52:299785] [P 1] [T 693] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,145330123
+[00:43:53:403879] [P 1] [T 697] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,177577205
+[00:43:54:510345] [P 1] [T 701] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,295741637
+[00:43:55:614875] [P 1] [T 705] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,840116382
+[00:43:56:717852] [P 1] [T 709] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,186759569
+[00:43:57:822450] [P 1] [T 713] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,163128176
+[00:43:58:960224] [P 1] [T 717] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,203510024
+[00:44:00:066685] [P 1] [T 721] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,152302348
+[00:44:01:171246] [P 1] [T 725] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,243643140
+[00:44:02:276246] [P 1] [T 729] [info] Swapping in session b12cd923-b6ad-4c - 8388608 bytes starting at 0x7f4ffcb63000 
+swap_time,8388608,709341596
+[00:44:24:513179] [P 1] [T 1] [info] End of file on connection with 54.160.183.18:8080. 
+[00:44:24:513220] [P 1] [T 1] [info] Process ends work! 
+[00:44:24:513228] [P 1] [T 1] [info] Session is closing down 
+[00:44:24:513235] [P 1] [T 1] [error] Destruct 0x7ffc633f83a0 

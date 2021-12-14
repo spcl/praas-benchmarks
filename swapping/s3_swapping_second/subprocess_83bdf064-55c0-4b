@@ -1,0 +1,29 @@
+[00:27:15:918171] [P 94551] [T 94550] [debug] /usr/bin/docker 
+[00:27:15:918195] [P 94551] [T 94550] [debug] run 
+[00:27:15:918199] [P 94551] [T 94550] [debug] -e 
+[00:27:15:918202] [P 94551] [T 94550] [debug] SWAPPING_S3_BUCKET=praaas-swapping 
+[00:27:15:918205] [P 94551] [T 94550] [debug] -e 
+[00:27:15:918207] [P 94551] [T 94550] [debug] AWS_ACCESS_KEY_ID=AKIATZYQRAQSR7PKKG5K 
+[00:27:15:918210] [P 94551] [T 94550] [debug] -e 
+[00:27:15:918213] [P 94551] [T 94550] [debug] AWS_SECRET_ACCESS_KEY=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 
+[00:27:15:918216] [P 94551] [T 94550] [debug] -v 
+[00:27:15:918218] [P 94551] [T 94550] [debug] /home/ubuntu/swapping/logs:/praas-logs 
+[00:27:15:918221] [P 94551] [T 94550] [debug] -v 
+[00:27:15:918224] [P 94551] [T 94550] [debug] /home/ubuntu/swapping/build/examples:/code 
+[00:27:15:918226] [P 94551] [T 94550] [debug] --shm-size 
+[00:27:15:918229] [P 94551] [T 94550] [debug] 3145728000 
+[00:27:15:918232] [P 94551] [T 94550] [debug] spcleth/praas:runtime 
+[00:27:16:262768] [P 1] [T 1] [info] Executing PraaS session executor! 
+[00:27:16:272609] [P 1] [T 1] [info] Process 83bdf064-55c0-4b begins work! 
+[00:27:16:284101] [P 1] [T 15] [info] Swapping in session 9bfdb2ee-006f-43 - 1024 bytes starting at 0x7f0fa271c000 
+swap_time,1024,42377702
+[00:27:17:302651] [P 1] [T 20] [info] Swapping in session f749176d-f239-4f - 4096 bytes starting at 0x7f0fa271c000 
+swap_time,4096,22047880
+[00:27:18:335791] [P 1] [T 24] [info] Swapping in session f749176d-f239-4f - 4096 bytes starting at 0x7f0fa271c000 
+swap_time,4096,35644457
+[00:27:19:363913] [P 1] [T 28] [info] Swapping in session f749176d-f239-4f - 4096 bytes starting at 0x7f0fa271c000 
+swap_time,4096,24222695
+[00:27:36:708827] [P 1] [T 1] [info] End of file on connection with 54.160.183.18:8080. 
+[00:27:36:708870] [P 1] [T 1] [info] Process ends work! 
+[00:27:36:708878] [P 1] [T 1] [info] Session is closing down 
+[00:27:36:708885] [P 1] [T 1] [error] Destruct 0x7ffe80a14b10 

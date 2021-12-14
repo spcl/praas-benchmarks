@@ -1,0 +1,72 @@
+[23:55:26:012655] [P 87432] [T 87431] [debug] /usr/bin/docker 
+[23:55:26:012677] [P 87432] [T 87431] [debug] run 
+[23:55:26:012681] [P 87432] [T 87431] [debug] -e 
+[23:55:26:012683] [P 87432] [T 87431] [debug] SWAPPING_S3_BUCKET=praaas-swapping 
+[23:55:26:012686] [P 87432] [T 87431] [debug] -e 
+[23:55:26:012689] [P 87432] [T 87431] [debug] AWS_ACCESS_KEY_ID=AKIATZYQRAQSR7PKKG5K 
+[23:55:26:012692] [P 87432] [T 87431] [debug] -e 
+[23:55:26:012694] [P 87432] [T 87431] [debug] AWS_SECRET_ACCESS_KEY=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 
+[23:55:26:012697] [P 87432] [T 87431] [debug] -v 
+[23:55:26:012700] [P 87432] [T 87431] [debug] /home/ubuntu/swapping/logs:/praas-logs 
+[23:55:26:012703] [P 87432] [T 87431] [debug] -v 
+[23:55:26:012706] [P 87432] [T 87431] [debug] /home/ubuntu/swapping/build/examples:/code 
+[23:55:26:012709] [P 87432] [T 87431] [debug] --shm-size 
+[23:55:26:012711] [P 87432] [T 87431] [debug] 3145728000 
+[23:55:26:012714] [P 87432] [T 87431] [debug] spcleth/praas:runtime 
+[23:55:26:328862] [P 1] [T 1] [info] Executing PraaS session executor! 
+[23:55:26:339901] [P 1] [T 1] [info] Process 66c560e7-2515-4a begins work! 
+swap_time,1024,49319316
+swap_time,10485760,225380856
+swap_time,10485760,199758651
+swap_time,10485760,175088053
+swap_time,10485760,165578391
+swap_time,10485760,263311660
+swap_time,10485760,296884613
+swap_time,10485760,246974552
+swap_time,10485760,208895819
+swap_time,10485760,227433024
+swap_time,10485760,152903387
+swap_time,10485760,129152549
+swap_time,10485760,206974024
+swap_time,10485760,158477606
+swap_time,10485760,295692123
+swap_time,10485760,142920904
+swap_time,10485760,156603419
+swap_time,10485760,155734797
+swap_time,10485760,161062431
+swap_time,10485760,155378378
+swap_time,10485760,253225215
+swap_time,10485760,168786404
+swap_time,10485760,109547848
+swap_time,10485760,135137451
+swap_time,10485760,249251461
+swap_time,10485760,213936314
+swap_time,10485760,188736289
+swap_time,10485760,154249793
+swap_time,10485760,94163242
+swap_time,10485760,177744722
+swap_time,10485760,210451924
+swap_time,10485760,159827413
+swap_time,10485760,234960256
+swap_time,10485760,158003887
+swap_time,10485760,167508774
+swap_time,10485760,277124816
+swap_time,10485760,230315715
+swap_time,10485760,139138810
+swap_time,10485760,136072608
+swap_time,10485760,221038690
+swap_time,10485760,198764818
+swap_time,10485760,93785590
+swap_time,10485760,141174739
+swap_time,10485760,230201586
+swap_time,10485760,135369669
+swap_time,10485760,139588565
+swap_time,10485760,188563247
+swap_time,10485760,259714761
+swap_time,10485760,113385346
+swap_time,10485760,149506867
+swap_time,10485760,184166098
+[23:56:55:728231] [P 1] [T 1] [info] End of file on connection with 54.160.183.18:8080. 
+[23:56:55:728274] [P 1] [T 1] [info] Process ends work! 
+[23:56:55:728282] [P 1] [T 1] [info] Session is closing down 
+[23:56:55:728289] [P 1] [T 1] [error] Destruct 0x7ffce64a45b0 

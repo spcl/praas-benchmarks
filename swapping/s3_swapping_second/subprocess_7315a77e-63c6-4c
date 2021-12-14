@@ -1,0 +1,139 @@
+[00:51:16:368578] [P 99459] [T 99458] [debug] /usr/bin/docker 
+[00:51:16:368602] [P 99459] [T 99458] [debug] run 
+[00:51:16:368606] [P 99459] [T 99458] [debug] -e 
+[00:51:16:368608] [P 99459] [T 99458] [debug] SWAPPING_S3_BUCKET=praaas-swapping 
+[00:51:16:368611] [P 99459] [T 99458] [debug] -e 
+[00:51:16:368614] [P 99459] [T 99458] [debug] AWS_ACCESS_KEY_ID=AKIATZYQRAQSR7PKKG5K 
+[00:51:16:368617] [P 99459] [T 99458] [debug] -e 
+[00:51:16:368619] [P 99459] [T 99458] [debug] AWS_SECRET_ACCESS_KEY=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 
+[00:51:16:368622] [P 99459] [T 99458] [debug] -v 
+[00:51:16:368625] [P 99459] [T 99458] [debug] /home/ubuntu/swapping/logs:/praas-logs 
+[00:51:16:368628] [P 99459] [T 99458] [debug] -v 
+[00:51:16:368630] [P 99459] [T 99458] [debug] /home/ubuntu/swapping/build/examples:/code 
+[00:51:16:368633] [P 99459] [T 99458] [debug] --shm-size 
+[00:51:16:368636] [P 99459] [T 99458] [debug] 3145728000 
+[00:51:16:368639] [P 99459] [T 99458] [debug] spcleth/praas:runtime 
+[00:51:16:753858] [P 1] [T 1] [info] Executing PraaS session executor! 
+[00:51:16:763270] [P 1] [T 1] [info] Process 7315a77e-63c6-4c begins work! 
+[00:51:16:775726] [P 1] [T 15] [info] Swapping in session 25603938-dbcd-4a - 1024 bytes starting at 0x7f4564106000 
+swap_time,1024,39176175
+[00:51:17:795893] [P 1] [T 20] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,156746901
+[00:51:18:922275] [P 1] [T 24] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,504305876
+[00:51:20:048307] [P 1] [T 28] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,296439977
+[00:51:21:272567] [P 1] [T 32] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,131113895
+[00:51:22:397486] [P 1] [T 36] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,123621643
+[00:51:23:623100] [P 1] [T 40] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,298291399
+[00:51:24:850039] [P 1] [T 44] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,78076173
+[00:51:25:973160] [P 1] [T 48] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,179120222
+[00:51:27:096796] [P 1] [T 52] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,175460483
+[00:51:28:264902] [P 1] [T 56] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,188747748
+[00:51:29:389757] [P 1] [T 60] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,132373264
+[00:51:30:512912] [P 1] [T 64] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,129797739
+[00:51:31:635830] [P 1] [T 68] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,145357967
+[00:51:32:760527] [P 1] [T 72] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,236954443
+[00:51:33:883262] [P 1] [T 76] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,131046378
+[00:51:35:008099] [P 1] [T 80] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,135730306
+[00:51:36:130220] [P 1] [T 84] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,345955836
+[00:51:37:255672] [P 1] [T 88] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,303612124
+[00:51:38:378695] [P 1] [T 92] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,134166020
+[00:51:39:501465] [P 1] [T 96] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,146434284
+[00:51:40:625252] [P 1] [T 100] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,150305199
+[00:51:41:750781] [P 1] [T 104] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,309843935
+[00:51:42:877265] [P 1] [T 108] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,169606789
+[00:51:44:003779] [P 1] [T 112] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,221937176
+[00:51:45:127069] [P 1] [T 116] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,234440247
+[00:51:46:251202] [P 1] [T 120] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,136059613
+[00:51:47:376642] [P 1] [T 124] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,130246952
+[00:51:48:500942] [P 1] [T 128] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,208450247
+[00:51:49:625712] [P 1] [T 132] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,293129473
+[00:51:50:748353] [P 1] [T 136] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,314899732
+[00:51:51:933202] [P 1] [T 140] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,190593543
+[00:51:53:057225] [P 1] [T 144] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,156076078
+[00:51:54:195375] [P 1] [T 148] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,258071381
+[00:51:55:317884] [P 1] [T 152] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,260453065
+[00:51:56:441309] [P 1] [T 156] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,184150963
+[00:51:57:564225] [P 1] [T 160] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,189125145
+[00:51:58:689969] [P 1] [T 164] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,178016550
+[00:51:59:812981] [P 1] [T 168] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,292359965
+[00:52:00:938829] [P 1] [T 172] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,182426552
+[00:52:02:063478] [P 1] [T 176] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,156111566
+[00:52:03:189941] [P 1] [T 180] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,165341839
+[00:52:04:362836] [P 1] [T 184] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,359119120
+[00:52:05:486680] [P 1] [T 188] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,130542966
+[00:52:06:609298] [P 1] [T 192] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,183100170
+[00:52:07:746943] [P 1] [T 196] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,142694914
+[00:52:08:871298] [P 1] [T 200] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,184481992
+[00:52:09:995757] [P 1] [T 204] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,139612574
+[00:52:11:118388] [P 1] [T 208] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,235061743
+[00:52:12:241073] [P 1] [T 212] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,240615303
+[00:52:13:366384] [P 1] [T 216] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,556663247
+[00:52:14:499281] [P 1] [T 220] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,158346788
+[00:52:15:933154] [P 1] [T 224] [info] Swapping in session 02189912-c117-4e - 10485760 bytes starting at 0x7f455a5fe000 
+swap_time,10485760,235269054
+[00:55:32:075689] [P 1] [T 1] [info] End of file on connection with 54.160.183.18:8080. 
+[00:55:32:075718] [P 1] [T 1] [info] Process ends work! 
+[00:55:32:075723] [P 1] [T 1] [info] Session is closing down 
+[00:55:32:075727] [P 1] [T 1] [error] Destruct 0x7ffcb67d07b0 
+Unfortunately, the session has crashed - signal 13.
+Error: signal 13:
+/dev-praas/bin/process_exec(+0x1bace)[0x555f01adbace]
+/lib/x86_64-linux-gnu/libc.so.6(+0x46520)[0x7f4563696520]
+/lib/x86_64-linux-gnu/libc.so.6(write+0x4f)[0x7f45637679ef]
+/lib/x86_64-linux-gnu/libcrypto.so.1.1(+0xa4559)[0x7f456327c559]
+/lib/x86_64-linux-gnu/libcrypto.so.1.1(+0x9240a)[0x7f456326a40a]
+/lib/x86_64-linux-gnu/libcrypto.so.1.1(+0x974b4)[0x7f456326f4b4]
+/lib/x86_64-linux-gnu/libcrypto.so.1.1(BIO_write+0x27)[0x7f456326f597]
+/lib/x86_64-linux-gnu/libssl.so.1.1(+0x22e81)[0x7f4563075e81]
+/lib/x86_64-linux-gnu/libssl.so.1.1(+0x29689)[0x7f456307c689]
+/lib/x86_64-linux-gnu/libssl.so.1.1(+0x2e1ae)[0x7f45630811ae]

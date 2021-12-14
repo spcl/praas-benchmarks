@@ -1,0 +1,322 @@
+[01:36:25:421132] [P 110061] [T 110060] [debug] /usr/bin/docker 
+[01:36:25:421155] [P 110061] [T 110060] [debug] run 
+[01:36:25:421159] [P 110061] [T 110060] [debug] -e 
+[01:36:25:421161] [P 110061] [T 110060] [debug] SWAPPING_S3_BUCKET=praaas-swapping 
+[01:36:25:421164] [P 110061] [T 110060] [debug] -e 
+[01:36:25:421167] [P 110061] [T 110060] [debug] AWS_ACCESS_KEY_ID=AKIATZYQRAQSR7PKKG5K 
+[01:36:25:421170] [P 110061] [T 110060] [debug] -e 
+[01:36:25:421173] [P 110061] [T 110060] [debug] AWS_SECRET_ACCESS_KEY=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 
+[01:36:25:421176] [P 110061] [T 110060] [debug] -v 
+[01:36:25:421178] [P 110061] [T 110060] [debug] /home/ubuntu/swapping/logs:/praas-logs 
+[01:36:25:421181] [P 110061] [T 110060] [debug] -v 
+[01:36:25:421184] [P 110061] [T 110060] [debug] /home/ubuntu/swapping/build/examples:/code 
+[01:36:25:421187] [P 110061] [T 110060] [debug] -v 
+[01:36:25:421190] [P 110061] [T 110060] [debug] /home/ubuntu/swapping/swaps:/praas-swapping 
+[01:36:25:421192] [P 110061] [T 110060] [debug] --shm-size 
+[01:36:25:777145] [P 1] [T 1] [info] Executing PraaS session executor! 
+[01:36:25:777860] [P 1] [T 1] [info] Process 9c0babd5-c4c0-42 begins work! 
+[01:36:25:893269] [P 1] [T 10] [info] Swapping session /praas-swapping/4942a6c4-b8ba-47 to 4942a6c4-b8ba-47 - 1024 bytes starting at 0x7fe7c4b5f000 
+swap_time,1024,245678
+[01:36:26:911237] [P 1] [T 14] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,712653
+[01:36:27:919369] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:27:930469] [P 1] [T 18] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,911387
+[01:36:28:936050] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:28:947491] [P 1] [T 22] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,959196
+[01:36:29:952978] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:29:964421] [P 1] [T 26] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,990496
+[01:36:30:969637] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:30:981103] [P 1] [T 30] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,940174
+[01:36:31:986377] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:31:999080] [P 1] [T 34] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,936394
+[01:36:33:005508] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:33:016979] [P 1] [T 38] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,997930
+[01:36:34:022465] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:34:035151] [P 1] [T 42] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,1080830
+[01:36:35:039121] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:35:050399] [P 1] [T 46] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,984254
+[01:36:36:057303] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:36:068597] [P 1] [T 50] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,963740
+[01:36:37:073294] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:37:083987] [P 1] [T 54] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,898999
+[01:36:38:088030] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:38:098784] [P 1] [T 58] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,871956
+[01:36:39:103660] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:39:114620] [P 1] [T 62] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,921834
+[01:36:40:121199] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:40:132417] [P 1] [T 66] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,874478
+[01:36:41:140055] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:41:151336] [P 1] [T 70] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,872423
+[01:36:42:156972] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:42:168010] [P 1] [T 74] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,893838
+[01:36:43:173415] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:43:184479] [P 1] [T 78] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,841390
+[01:36:44:189803] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:44:201247] [P 1] [T 82] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,969413
+[01:36:45:208851] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:45:229333] [P 1] [T 86] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,954568
+[01:36:46:234373] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:46:245750] [P 1] [T 90] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,944356
+[01:36:47:250932] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:47:262114] [P 1] [T 94] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,858860
+[01:36:48:267976] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:48:278859] [P 1] [T 98] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,832087
+[01:36:49:283441] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:49:294930] [P 1] [T 102] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,875056
+[01:36:50:299657] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:50:310904] [P 1] [T 106] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,932613
+[01:36:51:315909] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:51:327562] [P 1] [T 110] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,968982
+[01:36:52:332389] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:52:343539] [P 1] [T 114] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,1007623
+[01:36:53:350537] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:53:362158] [P 1] [T 118] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,936665
+[01:36:54:367642] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:54:378612] [P 1] [T 122] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,878875
+[01:36:55:383997] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:55:394744] [P 1] [T 126] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,930154
+[01:36:56:399848] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:56:412521] [P 1] [T 130] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,1013834
+[01:36:57:418410] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:57:429442] [P 1] [T 134] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,853725
+[01:36:58:434713] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:58:445990] [P 1] [T 138] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,916387
+[01:36:59:451269] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:36:59:462818] [P 1] [T 142] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,932209
+[01:37:00:469433] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:00:480951] [P 1] [T 146] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,889663
+[01:37:01:486414] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:01:498057] [P 1] [T 150] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,879865
+[01:37:02:503372] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:02:515032] [P 1] [T 154] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,1037799
+[01:37:03:519781] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:03:531429] [P 1] [T 158] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,953771
+[01:37:04:536256] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:04:548447] [P 1] [T 162] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,818556
+[01:37:05:554847] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:05:566821] [P 1] [T 166] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,926864
+[01:37:06:571306] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:06:589643] [P 1] [T 170] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,996107
+[01:37:07:595841] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:07:607601] [P 1] [T 174] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,1037729
+[01:37:08:613386] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:08:623995] [P 1] [T 178] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,832120
+[01:37:09:629267] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:09:640583] [P 1] [T 182] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,1011624
+[01:37:10:645762] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:10:657356] [P 1] [T 186] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,918073
+[01:37:11:663711] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:11:674568] [P 1] [T 190] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,858004
+[01:37:12:679036] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:12:690863] [P 1] [T 194] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,981305
+[01:37:13:695351] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:13:707113] [P 1] [T 198] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,1007822
+[01:37:14:711383] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:14:722033] [P 1] [T 202] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,859896
+[01:37:15:726455] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:15:736992] [P 1] [T 206] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,882059
+[01:37:16:743897] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:16:755364] [P 1] [T 210] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,1025383
+[01:37:17:761893] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:17:772769] [P 1] [T 214] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,872020
+[01:37:18:778386] [P 1] [T 1] [info] Swapping session /89889a7d-237d-41 from /89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+[01:37:18:789891] [P 1] [T 218] [info] Swapping session /praas-swapping/89889a7d-237d-41 to 89889a7d-237d-41 - 524288 bytes starting at 0x7fe7c25b1000 
+swap_time,524288,925248
+[01:37:19:805503] [P 1] [T 222] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1284505
+[01:37:20:812201] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:20:924916] [P 1] [T 226] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1681701
+[01:37:21:929924] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:21:940628] [P 1] [T 230] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1506559
+[01:37:22:947772] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:22:958327] [P 1] [T 234] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1574752
+[01:37:23:962922] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:23:973577] [P 1] [T 238] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1602355
+[01:37:24:980691] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:24:991920] [P 1] [T 242] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1726045
+[01:37:25:997232] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:26:008837] [P 1] [T 246] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1668323
+[01:37:27:015827] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:27:026881] [P 1] [T 250] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1743398
+[01:37:28:032546] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:28:043327] [P 1] [T 254] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1607948
+[01:37:29:048969] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:29:060720] [P 1] [T 258] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1687078
+[01:37:30:067763] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:30:079357] [P 1] [T 262] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1770688
+[01:37:31:086494] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:31:099198] [P 1] [T 266] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1808277
+[01:37:32:103558] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:32:115154] [P 1] [T 270] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1712312
+[01:37:33:122102] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:33:133628] [P 1] [T 274] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1745934
+[01:37:34:138885] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:34:150749] [P 1] [T 278] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1698126
+[01:37:35:155847] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:35:167050] [P 1] [T 282] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1560095
+[01:37:36:172787] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:36:184629] [P 1] [T 286] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1658556
+[01:37:37:191548] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:37:202447] [P 1] [T 290] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1517989
+[01:37:38:207203] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:38:218167] [P 1] [T 294] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1530430
+[01:37:39:222925] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:39:234491] [P 1] [T 298] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1739812
+[01:37:40:238961] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:40:249861] [P 1] [T 302] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1636867
+[01:37:41:256439] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:41:267941] [P 1] [T 306] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1679628
+[01:37:42:274926] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:42:285536] [P 1] [T 310] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1583181
+[01:37:43:290566] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:43:302374] [P 1] [T 314] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1649897
+[01:37:44:307627] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:44:318341] [P 1] [T 318] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1638157
+[01:37:45:325374] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:45:337946] [P 1] [T 322] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1777224
+[01:37:46:344351] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:46:356054] [P 1] [T 326] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1690900
+[01:37:47:361426] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:47:371949] [P 1] [T 330] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1629454
+[01:37:48:376648] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:48:387389] [P 1] [T 334] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1582279
+[01:37:49:394374] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:49:405312] [P 1] [T 338] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1619335
+[01:37:50:410443] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:50:429358] [P 1] [T 342] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1676792
+[01:37:51:434962] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:51:446540] [P 1] [T 346] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1676277
+[01:37:52:452971] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:52:464361] [P 1] [T 350] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1604480
+[01:37:53:471172] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:53:484004] [P 1] [T 354] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1712288
+[01:37:54:488525] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:54:499851] [P 1] [T 358] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1662624
+[01:37:55:504826] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:55:516266] [P 1] [T 362] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1750420
+[01:37:56:521417] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:56:533028] [P 1] [T 366] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1766099
+[01:37:57:538376] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:57:549950] [P 1] [T 370] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1772797
+[01:37:58:557236] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:58:570055] [P 1] [T 374] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1708498
+[01:37:59:576229] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:37:59:589011] [P 1] [T 378] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1687996
+[01:38:00:593473] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:38:00:605117] [P 1] [T 382] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1709210
+[01:38:01:609984] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:38:01:722832] [P 1] [T 386] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1768846
+[01:38:02:727394] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:38:02:740588] [P 1] [T 390] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1806658
+[01:38:03:746324] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:38:03:757975] [P 1] [T 394] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1733200
+[01:38:04:763723] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:38:04:775405] [P 1] [T 398] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1749932
+[01:38:05:780176] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:38:05:791692] [P 1] [T 402] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1776387
+[01:38:06:798605] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:38:06:809318] [P 1] [T 406] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1556291
+[01:38:07:814823] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:38:07:825542] [P 1] [T 410] [info] Swapping session /praas-swapping/3a5f20a2-9034-4b to 3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+swap_time,1048576,1512682
+[01:38:08:830193] [P 1] [T 1] [info] Swapping session /3a5f20a2-9034-4b from /3a5f20a2-9034-4b - 1048576 bytes starting at 0x7fe7c2531000 
+[01:39:13:606149] [P 1] [T 1] [info] End of file on connection with 54.160.183.18:8080. 
+[01:39:13:606189] [P 1] [T 1] [info] Process ends work! 
+[01:39:13:606195] [P 1] [T 1] [info] Session is closing down 
+[01:39:13:606201] [P 1] [T 1] [error] Destruct 0x7ffd2b1e5bc0 
