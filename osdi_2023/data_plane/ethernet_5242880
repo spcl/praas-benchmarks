@@ -1,0 +1,3 @@
+MIGRATED TCP REQUEST/RESPONSE TEST from 0.0.0.0 (0.0.0.0) port 0 AF_INET to 52.207.77.238 () port 10001 AF_INET : demo : first burst 0
+Minimum Latency Microseconds,Maximum Latency Microseconds,Mean Latency Microseconds,50th Percentile Latency Microseconds,90th Percentile Latency Microseconds,99th Percentile Latency Microseconds,Stddev Latency Microseconds
+95109,99491,95813.04,95684,96653,97000,500.21
