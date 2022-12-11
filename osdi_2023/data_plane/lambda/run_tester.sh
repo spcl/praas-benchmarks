@@ -1,5 +1,5 @@
 
-REPETITIONS=10
+REPETITIONS=100
 URL="https://u572yurrp5rdp3pklqwxityth40tkmdd.lambda-url.us-east-1.on.aws/"
 
 SIZE_STEPS="10 1024 102400 1048576 5242880"
