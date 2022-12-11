@@ -21,19 +21,22 @@ int main(int argc, char ** argv)
   CURLcode res;
   std::string readBuffer;
 
+  for(int i = 1; i < 5; ++i)
+    std::cerr << i << " " << argv[i] << std::endl;
+
   std::string url(argv[1]);
   int kilobytes = atoi(argv[2]);
   int repetitions = atoi(argv[3]);
   int pause = atoi(argv[4]);
 
   std::string test;
-  int size = 1024 * kilobytes - 3;
+  int size = kilobytes - 3;
   int input_size = floor(size * 3 / 4);
   for(int i = 0; i < input_size; ++i)
     test += "0";
   std::string out = base64_encode(test);
   {
-    std::ofstream out_f("input_" + std::string(argv[3]) + ".txt", std::ios_base::out);
+    std::ofstream out_f("input_" + std::to_string(kilobytes) + ".txt", std::ios_base::out);
     out_f << out << '\n';
   }
 
