@@ -1,0 +1,9 @@
+{
+  "sizes": [10, 1024, 102400, 1048576, 5242880],
+  "repetitions": 100,
+  "process_address": "3.90.83.145",
+  "process_port": 8000,
+  "function_name": "no_op",
+  "output_file": "dataplane_sizes_fargate.csv"
+}
+
