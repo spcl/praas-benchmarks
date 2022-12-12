@@ -1,0 +1,9 @@
+{
+  "sizes": [1048576,5242880],
+  "repetitions": 100,
+  "process_address": "18.207.207.180",
+  "process_port": 8000,
+  "function_name": "no_op_local",
+  "output_file": "dataplane_sizes_fargate_local.csv"
+}
+
