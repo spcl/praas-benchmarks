@@ -1,0 +1,10 @@
+{
+  "sizes": [10, 1024, 102400, 1048576, 5242880],
+  "repetitions": 100,
+  "process_address_sender": "54.152.236.244",
+  "process_port_sender": 8000,
+  "process_address_receiver": "34.201.61.85",
+  "process_port_receiver": 8000,
+  "function_name": "s3",
+  "output_file": "s3_fargate.csv"
+}
