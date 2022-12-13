@@ -1,0 +1,11 @@
+{
+  "sizes": [10, 1024, 102400, 1048576, 5242880],
+  "repetitions": 100,
+  "process_address_sender": "100.24.205.24",
+  "process_port_sender": 8000,
+  "process_address_receiver": "100.26.235.107",
+  "process_port_receiver": 8000,
+  "redis_hostname": "ec2-34-207-205-133.compute-1.amazonaws.com",
+  "function_name": "redis_sender",
+  "output_file": "redis_ec2_fargate.csv"
+}
