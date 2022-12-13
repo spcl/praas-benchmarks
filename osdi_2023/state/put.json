@@ -1,0 +1,9 @@
+{
+  "sizes": [10, 100, 1000, 10000, 100000],
+  "messages": [1, 10, 25, 50, 100],
+  "repetitions": 100,
+  "process_address": "54.89.60.200",
+  "process_port": 8000,
+  "function_name": "put_sender",
+  "output_file": "state_put_fargate.csv"
+}
