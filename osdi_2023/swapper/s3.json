@@ -1,0 +1,9 @@
+{
+  "sizes": [209715200],
+  "threads": [1,2,4,8,16,32],
+  "repetitions": 20,
+  "process_address": "34.232.78.29",
+  "process_port": 8000,
+  "function_name": "s3_swapper",
+  "output_file": "swapper_s3_fargate.csv"
+}
