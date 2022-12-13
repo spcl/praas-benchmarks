@@ -1,5 +1,5 @@
 {
-  "sizes": [209715200],
+  "sizes": [],
   "threads": [1,2,4,8,16,32],
   "repetitions": 20,
   "process_address": "34.232.78.29",
