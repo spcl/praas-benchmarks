@@ -1,0 +1,9 @@
+{
+  "sizes": [1048576, 5242880,10485760,52428800,104857600],
+  "threads": [1,2,4,8,16],
+  "repetitions": 20,
+  "process_address": "127.0.0.1",
+  "process_port": 8000,
+  "function_name": "s3_swapper",
+  "output_file": "swapper_docker_fargate2.csv"
+}
