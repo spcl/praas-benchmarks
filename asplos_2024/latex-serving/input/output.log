@@ -1,0 +1,460 @@
+Rc files read:
+  /etc/LatexMk
+Latexmk: This is Latexmk, John Collins, 20 November 2021, version: 4.76.
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'secs/acks.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -recorder  "sample-sigconf.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./sample-sigconf.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (./acmart.cls
+Document Class: acmart 2023/06/11 v1.90a Typesetting articles for the Associati
+on for Computing Machinery
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/totpages/totpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/everyshi/everyshi.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/manyfoot.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccfoots.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty<<t1.cmap>>)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe))
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.7, 2021/12/18 Math macros based originally on txfonts (msharpe)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+amsthm NOT loaded
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption-ams-smf.sto)))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment') Excluding comment 'CCSXML'
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+Special comment 'acks'
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty)
+Excluding comment 'screenonly' Include comment 'printonly'
+Include comment 'anonsuppress'
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./sample-sigconf.aux (./secs/authors.aux))
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd)<<
+ot1.cmap>><<oml.cmap>>
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+(./sample-sigconf.out) (./sample-sigconf.out)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty)
+Excluding 'CCSXML' comment.
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd)
+(./secs/core.tex [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./sam
+pleteaser.pdf>] (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+[2.2] (./secs/authors.tex) [3.3]
+Overfull \hbox (2.79185pt too wide) in paragraph at lines 166--170
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) Your work should use stan-dard L[]T[]X sec-
+tion-ing com-mands: [][]\T1/zi4/m/n/9 section[]\T1/LinuxLibertineT-TLF/m/n/9 (-
+20) ,
+
+Overfull \hbox (1.26605pt too wide) in paragraph at lines 166--170
+[][]\T1/zi4/m/n/9 subsection[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) , [][]\T1/zi4
+/m/n/9 subsubsection[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) , and [][]\T1/zi4/m/n
+/9 paragraph[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) . They should be num-
+
+Underfull \vbox (badness 2653) has occurred while \output is active
+Underfull \vbox (badness 1009) has occurred while \output is active [4.4])
+(./secs/figure.tex
+Overfull \hbox (4.77193pt too wide) in paragraph at lines 24--37
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) 2000 char-ac-ters long (in-clud-ing spaces)
+. \T1/LinuxLibertineT-TLF/b/n/9 (-20) Fig-ure de-scrip-tions should
+) (./secs/citations.tex) [5.5 <./sample-franklin.png>] (./secs/acks.tex)
+(./secs/appendices.tex) (./secs/multi.tex
+Overfull \hbox (14.59637pt too wide) in paragraph at lines 12--12
+[]\T1/zi4/m/n/9 \documentclass[sigconf, language=english, language=german,[] 
+) (./secs/sigchi.tex) Processing 'acks' comment.
+Comment 'acks' writing to comment.cut. Straight input of comment.cut.
+(./comment.cut) (./sample-sigconf.bbl [6.6]) (./secs/appendix.tex)
+Overfull \hbox (4.18721pt too wide) in paragraph at lines 321--321
+ [][][][] 
+
+Overfull \hbox (4.18721pt too wide) in paragraph at lines 321--321
+ [][] 
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def)
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 321.
+
+[7.7] (./sample-sigconf.aux (./secs/authors.aux)) )
+(see the transcript file for additional information){/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{/usr/share/texlive/texmf-dist/font
+s/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/share/texlive/texmf-dist/fonts/enc/
+dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
+libertine/lbtn_7grukw.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libert
+ine/lbtn_nh77jq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lb
+tn_naooyc.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_76g
+pa5.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsola
+ta-zi4b.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Incon
+solata-zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/Liberti
+neMathMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineM
+athMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMat
+hRM.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinum
+T.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on sample-sigconf.pdf (7 pages, 1040316 bytes).
+Transcript written on sample-sigconf.log.
+Latexmk: Found input bbl file 'sample-sigconf.bbl'
+Latexmk: Log file says output to 'sample-sigconf.pdf'
+Latexmk: Examining 'sample-sigconf.log'
+=== TeX engine is 'pdfTeX'
+Latexmk: Found bibliography file(s) [sample-base.bib]
+Rule 'bibtex sample-sigconf': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'sample-sigconf.aux'
+------------
+Run number 1 of rule 'bibtex sample-sigconf'
+------------
+------------
+Running 'bibtex  "sample-sigconf.aux"'
+------------
+Latexmk: applying rule 'bibtex sample-sigconf'...
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+The top-level auxiliary file: sample-sigconf.aux
+The style file: ACM-Reference-Format.bst
+Database file #1: sample-base.bib
+Warning--entry type for "Bornmann2019" isn't style-file defined
+--line 1612 of file sample-base.bib
+Warning--entry type for "AnzarootPBM14" isn't style-file defined
+--line 1629 of file sample-base.bib
+Warning--empty organization in Ablamowicz07
+Warning--empty organization in UMassCitations
+Warning--empty chapter and pages in Editor00
+Warning--page numbers missing in Editor00a
+Warning--empty author in 2004:ITE:1009386.1010128
+Warning--empty address in Knuth97
+Warning--articleno or eid field, but no numpages field, in Lee05
+Warning--page numbers missing in both pages and numpages fields in Lee05
+Warning--articleno or eid, but no pages or numpages field in Lee05
+Warning--unrecognized DOI value [99.9999/woot07-S422]
+Warning--articleno or eid field, but no numpages field, in rous08
+Warning--page numbers missing in both pages and numpages fields in rous08
+Warning--articleno or eid, but no pages or numpages field in rous08
+Warning--page numbers missing in both pages and numpages fields in SaeediJETC10
+Warning--unrecognized DOI value [99.9999/woot07-S422]
+Warning--empty organization in Thornburg01
+Warning--empty organization in TUGInstmem
+Warning--empty organization in TUGInstmem
+Warning--empty organization in CTANacmart
+(There were 21 warnings)
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'sample-sigconf.aux'
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -recorder  "sample-sigconf.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./sample-sigconf.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (./acmart.cls
+Document Class: acmart 2023/06/11 v1.90a Typesetting articles for the Associati
+on for Computing Machinery
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsart.cls
+Document Class: amsart 2020/05/29 v2.20.6
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/totpages/totpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/everyshi/everyshi.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperxmp/hyperxmp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/manyfoot.sty
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccfoots.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty<<t1.cmap>>)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/libertine.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe))
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.7, 2021/12/18 Math macros based originally on txfonts (msharpe)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kastrup/binhex.tex)
+amsthm NOT loaded
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption-ams-smf.sto)))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+Excluding comment 'comment') Excluding comment 'CCSXML'
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+Special comment 'acks'
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty)
+Excluding comment 'screenonly' Include comment 'printonly'
+Include comment 'anonsuppress'
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./sample-sigconf.aux (./secs/authors.aux))
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd)<<
+ot1.cmap>><<oml.cmap>>
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+(./sample-sigconf.out) (./sample-sigconf.out)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty)
+Excluding 'CCSXML' comment.
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd)
+(./secs/core.tex [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./sam
+pleteaser.pdf>] (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+[2.2] (./secs/authors.tex) [3.3]
+Overfull \hbox (2.79185pt too wide) in paragraph at lines 166--170
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) Your work should use stan-dard L[]T[]X sec-
+tion-ing com-mands: [][]\T1/zi4/m/n/9 section[]\T1/LinuxLibertineT-TLF/m/n/9 (-
+20) ,
+
+Overfull \hbox (1.26605pt too wide) in paragraph at lines 166--170
+[][]\T1/zi4/m/n/9 subsection[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) , [][]\T1/zi4
+/m/n/9 subsubsection[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) , and [][]\T1/zi4/m/n
+/9 paragraph[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) . They should be num-
+
+Underfull \vbox (badness 2653) has occurred while \output is active
+Underfull \vbox (badness 1009) has occurred while \output is active [4.4])
+(./secs/figure.tex
+Overfull \hbox (4.77193pt too wide) in paragraph at lines 24--37
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) 2000 char-ac-ters long (in-clud-ing spaces)
+. \T1/LinuxLibertineT-TLF/b/n/9 (-20) Fig-ure de-scrip-tions should
+) (./secs/citations.tex) [5.5 <./sample-franklin.png>] (./secs/acks.tex)
+(./secs/appendices.tex) (./secs/multi.tex
+Overfull \hbox (14.59637pt too wide) in paragraph at lines 12--12
+[]\T1/zi4/m/n/9 \documentclass[sigconf, language=english, language=german,[] 
+) (./secs/sigchi.tex) Processing 'acks' comment.
+Comment 'acks' writing to comment.cut. Straight input of comment.cut.
+(./comment.cut) (./sample-sigconf.bbl [6.6]) (./secs/appendix.tex)
+Overfull \hbox (4.18721pt too wide) in paragraph at lines 321--321
+ [][][][] 
+
+Overfull \hbox (4.18721pt too wide) in paragraph at lines 321--321
+ [][] 
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def)
+
+Class acmart Warning: \vspace should only be used to provide space above/below 
+surrounding objects on input line 321.
+
+[7.7] (./sample-sigconf.aux (./secs/authors.aux)) )
+(see the transcript file for additional information){/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{/usr/share/texlive/texmf-dist/font
+s/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/share/texlive/texmf-dist/fonts/enc/
+dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/
+libertine/lbtn_7grukw.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libert
+ine/lbtn_nh77jq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lb
+tn_naooyc.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_76g
+pa5.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsola
+ta-zi4b.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Incon
+solata-zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/Liberti
+neMathMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineM
+athMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/LibertineMat
+hRM.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinum
+T.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on sample-sigconf.pdf (7 pages, 1040316 bytes).
+Transcript written on sample-sigconf.log.
+Latexmk: Found input bbl file 'sample-sigconf.bbl'
+Latexmk: Log file says output to 'sample-sigconf.pdf'
+Latexmk: Examining 'sample-sigconf.log'
+=== TeX engine is 'pdfTeX'
+Latexmk: Found bibliography file(s) [sample-base.bib]
+Latexmk: All targets (sample-sigconf.pdf) are up-to-date
