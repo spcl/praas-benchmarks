@@ -9,7 +9,7 @@
   "resources_cpu": "512",
   "resources_memory": "1 GB",
   "repetitions": 50,
-  "control_plane_address": "52.206.95.87",
-  "output_file": "latex_editing_medium.csv",
-  "cloud_resource_name": "arn:aws:ecs:us-east-1:261490803749:task-definition/latex-serving:3"
+  "control_plane_address": "54.197.15.131",
+  "output_file": "latex_editing_medium_new.csv",
+  "cloud_resource_name": "arn:aws:ecs:us-east-1:261490803749:task-definition/latex-serving-updated:14"
 }
