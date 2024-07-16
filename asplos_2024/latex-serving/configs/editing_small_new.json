@@ -10,6 +10,6 @@
   "resources_memory": "512",
   "repetitions": 50,
   "control_plane_address": "54.197.15.131",
-  "output_file": "latex_editing_small.csv",
-  "cloud_resource_name": "arn:aws:ecs:us-east-1:261490803749:task-definition/latex-serving:3"
+  "output_file": "latex_editing_small_new.csv",
+  "cloud_resource_name": "arn:aws:ecs:us-east-1:261490803749:task-definition/latex-serving-updated:14"
 }
