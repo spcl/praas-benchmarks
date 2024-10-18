@@ -15,8 +15,8 @@ const size_t MAX_MSG_SIZE = 8192;
 
 void send_message(mqd_t mq, const std::vector<char>& message, size_t chunk_size)
 {
-
-  for (size_t i = 0; i < message.size(); i += chunk_size) {
+  size_t i = 0;
+  for (i = 0; i < message.size(); i += chunk_size) {
 
     size_t chunk_length = std::min(chunk_size, message.size() - i);
     if (mq_send(mq, message.data() + i, chunk_length, 0) == -1) {
@@ -24,14 +24,12 @@ void send_message(mqd_t mq, const std::vector<char>& message, size_t chunk_size)
       abort(); 
     }
   }
-
 }
 
-std::vector<char> receive_message(mqd_t mq, size_t total_size, size_t chunk_size)
+void receive_message(mqd_t mq, std::vector<char>& message, size_t chunk_size)
 {
-  std::vector<char> message(total_size);
   size_t received = 0;
-  while (received < total_size) {
+  while (received < message.size()) {
 
     ssize_t chunk_length = mq_receive(mq, message.data() + received, chunk_size, nullptr);
     if (chunk_length == -1) {
@@ -41,7 +39,6 @@ std::vector<char> receive_message(mqd_t mq, size_t total_size, size_t chunk_size
     received += chunk_length;
 
   }
-  return message;
 }
 
 void run_server(size_t msg_size, int repetitions)
@@ -65,14 +62,18 @@ void run_server(size_t msg_size, int repetitions)
   }
 
   std::vector<char> message(msg_size, 42);
+  std::vector<char> receive(msg_size);
 
   std::cerr << "Start!" << std::endl;
 
   for (int i = 0; i < repetitions + 1; ++i) {
 
-    receive_message(client_to_server, msg_size, chunk_size);
+    receive_message(client_to_server, receive, chunk_size);
     send_message(server_to_client, message, chunk_size);
 
+    if(message[5] != receive[5]) {
+      abort();
+    }
   }
 
   mq_close(server_to_client);
@@ -93,6 +94,7 @@ void run_client(size_t msg_size, int repetitions, std::string output_file)
   }
 
   std::vector<char> message(msg_size, 42);
+  std::vector<char> receive(msg_size);
 
   std::vector<long> measurements;
 
@@ -100,8 +102,12 @@ void run_client(size_t msg_size, int repetitions, std::string output_file)
 
     auto begin = std::chrono::high_resolution_clock::now();
     send_message(client_to_server, message, chunk_size);
-    receive_message(server_to_client, msg_size, chunk_size);
+    receive_message(server_to_client, receive, chunk_size);
     auto end = std::chrono::high_resolution_clock::now();
+
+    if(message[5] != receive[5]) {
+      abort();
+    }
 
     if(i > 0) {
       measurements.emplace_back(

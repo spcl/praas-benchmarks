@@ -4,13 +4,15 @@ RUN apt-get update && apt-get install -y g++
 
 ADD benchmarker_mq.cpp .
 ADD benchmarker_uds.cpp .
+ADD benchmarker_shmem.cpp .
 
-RUN g++ benchmarker_uds.cpp -o benchmarker_uds && g++ benchmarker_mq.cpp -o benchmarker_mq
+RUN g++ -O3 benchmarker_uds.cpp -o benchmarker_uds && g++ -O3 benchmarker_mq.cpp -o benchmarker_mq && g++ -O3 benchmarker_shmem.cpp -o benchmarker_shmem
 
 FROM ubuntu:latest
 
 COPY --from=source /benchmarker_uds .
 COPY --from=source /benchmarker_mq .
+COPY --from=source /benchmarker_shmem .
 
 ADD run.sh .
 

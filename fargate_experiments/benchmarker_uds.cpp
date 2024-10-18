@@ -27,10 +27,9 @@ void send_message(int sockfd, const std::vector<char>& message)
   }
 }
 
-std::vector<char> receive_message(int sockfd, size_t total_size)
+void receive_message(int sockfd, std::vector<char>& message)
 {
-  std::vector<char> message(total_size);
-  size_t received = 0;
+  size_t received = 0, total_size = message.size();
   while (received < total_size) {
 
     ssize_t to_read = total_size - received;
@@ -42,7 +41,6 @@ std::vector<char> receive_message(int sockfd, size_t total_size)
     received += chunk_length;
 
   }
-  return message;
 }
 
 void run_server(size_t msg_size, int repetitions)
@@ -80,10 +78,15 @@ void run_server(size_t msg_size, int repetitions)
   }
 
   std::vector<char> message(msg_size, 42);
+  std::vector<char> receive(msg_size);
 
   for (int i = 0; i < repetitions + 1; ++i) {
-    receive_message(client_fd, msg_size);
+    receive_message(client_fd, receive);
     send_message(client_fd, message);
+
+    if(message[5] != receive[5]) {
+      abort();
+    }
   }
 
   close(client_fd);
@@ -112,14 +115,20 @@ void run_client(size_t msg_size, int repetitions, std::string output_file)
   }
 
   std::vector<char> message(msg_size, 42);
+  std::vector<char> receive(msg_size);
+
   std::vector<long> measurements;
 
   for (int i = 0; i < repetitions + 1; ++i) {
 
     auto begin = std::chrono::high_resolution_clock::now();
     send_message(sock, message);
-    receive_message(sock, msg_size);
+    receive_message(sock, receive);
     auto end = std::chrono::high_resolution_clock::now();
+
+    if(message[5] != receive[5]) {
+      abort();
+    }
 
     if(i > 0) {
       measurements.emplace_back(
