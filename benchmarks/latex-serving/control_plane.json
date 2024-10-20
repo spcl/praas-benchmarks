@@ -1,0 +1,20 @@
+{
+  "verbose": true,
+  "backend-type": "aws_fargate",
+  "backend": {
+    "subnet": "127.0.0.1",
+    "fargate_config": "fargate.json"
+  },
+  "ip-address": "<fill-ip-address>",
+  "http-client-io-threads": 1,
+  "http": {
+    "threads": 2,
+    "port": 8000,
+    "enable_ssl": false
+  },
+  "tcpserver": {
+    "port": 2000,
+    "io_threads": 5
+  }
+}
+
